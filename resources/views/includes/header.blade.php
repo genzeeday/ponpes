@@ -38,8 +38,8 @@
     <nav class=" flex justify-center lg:px-32 sm:px-4">
         <ul class=" w-full poppins-regular grid grid-cols-6 lg:px-7" style="font-size: 20px;">
             <li class="px-7 py-6">
-                <a href="#">
-                    <span class=" font-bold border-b-2 pb-1 border-green-600">Beranda</span>
+                <a href="{{route('home')}}">
+                    <span class=" {{ Request::is('/') ? "font-bold border-b-2 pb-1 border-green-600" : "text-gray-400"}}">Beranda</span>
                 </a>
             </li>
             <li class="px-7 py-6">
