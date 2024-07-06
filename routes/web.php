@@ -9,8 +9,12 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('pages.home');
 })->name("home");
+
 Route::get('/usaha', function () {
     return view('pages.usaha');
-});
+})->name("usaha");
 
+Route::get('/jenjang', function () {
+    return view('pages.jenjang');
+})->name("jenjang");
 // Route::get('/')

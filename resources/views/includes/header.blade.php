@@ -48,13 +48,13 @@
                 </a>
             </li>
             <li class="px-7 py-6">
-                <a href="#">
-                    <span class="text-gray-400">Badan Usaha</span>
+                <a href="{{route('usaha')}}">
+                    <span class=" {{ Request::is('usaha') ? "font-bold border-b-2 pb-1 border-green-600" : "text-gray-400"}}">Badan Usaha</span>
                 </a>
             </li>
             <li class="px-7 py-6">
-                <a href="#">
-                    <span class="text-gray-400">Jenjang</span>
+                <a href="{{route('jenjang')}}">
+                    <span class=" {{ Request::is('jenjang') ? "font-bold border-b-2 pb-1 border-green-600" : "text-gray-400"}}">Jenjang</span>
                 </a>
             </li>
             <li class="px-7 py-6">
