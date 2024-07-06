@@ -186,6 +186,19 @@
             </div>
         </div>
         {{-- rate komen --}}
-        
+        <div class="w-full min-h-screen relative h-fit pb-10">
+            <div class=" absolute h-96 bg-hijau1 w-full -z-10">
+            </div>
+            <div class="text-center text-white w-full pt-[7%]">
+                <p class="poppins-regular text-[25px]">Kata mereka tentang</p>
+                <p class="poppins-semibold" style="font-size: 40px;">PONPES DARULYATAMA WAL MASAKIN</p>
+            </div>
+            <div class="w-full grid lg:grid-cols-3 lg:gap-3 text-black p-10 px-24">
+                <x-card class="col-span-1 h-fit my-5" title="haha" name="Yogi" rule="CO-Genzee" src="images/logo.png">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque consectetur vero delectus quasi, aliquam voluptate explicabo repellat laborum eius non assumenda, quam, necessitatibus recusandae laboriosam excepturi dolor nulla ipsam consequuntur.</x-card>
+                <x-card class="col-span-1 h-fit my-5" title="haha" name="Yogi" rule="CO-Genzee" src="images/logo.png">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque consectetur vero delectus quasi, aliquam voluptate explicabo repellat laborum eius non assumenda, quam, necessitatibus recusandae laboriosam excepturi dolor nulla ipsam consequuntur.</x-card>
+                <x-card class="col-span-1 h-fit my-5" title="haha" name="Yogi" rule="CO-Genzee" src="images/logo.png">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque consectetur vero delectus quasi, aliquam voluptate explicabo repellat laborum eius non assumenda, quam, necessitatibus recusandae laboriosam excepturi dolor nulla ipsam consequuntur.</x-card>
+                {{-- <x-card class="col-span-1"></x-card> --}}
+            </div>
+        </div>
     </section>
 @endsection
