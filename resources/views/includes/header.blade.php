@@ -58,8 +58,8 @@
                 </a>
             </li>
             <li class="px-7 py-6">
-                <a href="#">
-                    <span class="text-gray-400">Galeri</span>
+                <a href="{{route('galeri')}}">
+                    <span class=" {{ Request::is('galeri') ? "font-bold border-b-2 pb-1 border-green-600" : "text-gray-400"}}">Galeri</span>
                 </a>
             </li>
             <li class="px-7 py-6">

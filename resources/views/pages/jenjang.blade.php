@@ -2,7 +2,7 @@
 
 @section('content')
     <section id="content">
-        <x-banner>Badan Usaha</x-banner>
+        <x-banner>Jenjang Pendidikan</x-banner>
         <div id="badan-usaha" class="lg:px-28 sm:px-10  h-fit min-h-screen py-16">
             <div class="py-10" id="information">
                 <p class="poppins-bold text-[28px]">Jenjang Pendidikan</p>

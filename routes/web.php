@@ -17,4 +17,12 @@ Route::get('/usaha', function () {
 Route::get('/jenjang', function () {
     return view('pages.jenjang');
 })->name("jenjang");
+
+Route::get('/galeri', function () {
+    return view('pages.galeri');
+})->name("galeri");
+
+Route::get('/kontak', function () {
+    return view('pages.kontak');
+})->name("galeri");
 // Route::get('/')

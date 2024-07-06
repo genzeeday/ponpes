@@ -89,32 +89,32 @@
                 </div>
                 <div class="grid lg:gap-4 h-fit lg:grid-cols-4 sm:gap-2 sm:grid-cols-2 text-white " id="list-jenjang">
                     <div class="bg-black col-span-1 rounded-lg pb-5 mt-16" style="font-size: 18px;">
-                        <div class=" h-64">
-                            <img src="#"/>
+                        <div class=" h-28 flex justify-center">
+                            <img src="images/1.png"/>
                         </div>
                         <div class=" text-center" id="caption">
                             <p>Raudatul Athfal Darull Aitam</p>
                         </div>
                     </div>
                     <div class="bg-black col-span-1 rounded-lg pb-5 mt-16" style="font-size: 18px;">
-                        <div class=" h-64">
-                            <img src="#"/>
+                        <div class=" h-28 flex justify-center">
+                            <img src="images/1.png"/>
                         </div>
                         <div class=" text-center" id="caption">
                             <p> Madrasah Ibtidaiyah Darul Aitam </p>
                         </div>
                     </div>
                     <div class="bg-black col-span-1 rounded-lg pb-5 mt-16" style="font-size: 18px;">
-                        <div class=" h-64">
-                            <img src="#"/>
+                        <div class=" h-28 flex justify-center">
+                            <img src="images/1.png"/>
                         </div>
                         <div class=" text-center" id="caption">
                             <p>Madrasah Tsanawiyah Darul Aitam</p>
                         </div>
                     </div>
                     <div class="bg-black col-span-1 rounded-lg pb-5 mt-16" style="font-size: 18px;">
-                        <div class=" h-64">
-                            <img src="#"/>
+                        <div class=" h-28 flex justify-center">
+                            <img src="images/1.png"/>
                         </div>
                         <div class=" text-center" id="caption">
                             <p> Madrasah Aliyah Darul Aitam</p>
