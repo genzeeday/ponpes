@@ -9,7 +9,7 @@
                 <p class="text-hijau1">DARULYATAMA WAL MASAKIN</p>
             </div>
         </div>
-        <div class="contact-header col-span-1 flex poppins-regular justify-end sm:text-base">
+        <div class="contact-header col-span-1 flex poppins-regular justify-end sm:text-base sm:hidden lg:block">
             {{-- telepone --}}
             <div class="flex lg:px-5 sm:px-2">
                 <div class=" me-2">
@@ -44,9 +44,12 @@
         </div>
     </div>
 
-    {{-- navbar --}}
-    <nav class=" flex justify-center lg:px-32 sm:px-4">
-        <ul class=" w-full poppins-regular lg:px-7 flex" style="font-size: 20px;">
+<!-- </section>
+
+<section class="sticky top-0 bg-white z-10" id="navbar">
+{{-- navbar --}} -->
+    <nav class=" flex justify-center lg:px-32 sm:px-4 ">
+        <ul class=" w-full poppins-regular lg:px-7 flex lg:text-[20px] sm:text-[10px]">
             <li class="px-7 py-6">
                 <a href="{{ route('home') }}">
                     <span
@@ -110,5 +113,4 @@
             </li>
         </ul>
     </nav>
-
 </section>

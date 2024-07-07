@@ -64,7 +64,7 @@
 
         {{-- visi misi --}}
         <div class="grid grid-cols-3 h-screen">
-            <div class="col-span-1 sm:hidden lg:block">
+            <div class="col-span-1 md:hidden lg:block">
                 <img src="images/sabit.png" class=" h-screen" />
             </div>
             <div class="lg:col-span-2 px-16 sm:py-12 sm:col-span-3 content-center">
@@ -205,7 +205,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="lg:col-span-1 flex justify-center">
+                <div class="lg:col-span-1 flex justify-center ps-5">
                     <img src="images/ngaji.png" class="sm:hidden lg:block">
                 </div>
             </div>
