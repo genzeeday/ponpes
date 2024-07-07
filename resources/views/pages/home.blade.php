@@ -63,11 +63,11 @@
         </div>
 
         {{-- visi misi --}}
-        <div class="grid grid-cols-3 h-screen">
+        <div class="grid grid-cols-3 min-h-screen h-fit">
             <div class="col-span-1 md:hidden lg:block">
                 <img src="images/sabit.webp" class=" h-screen" />
             </div>
-            <div class="lg:col-span-2 px-16 sm:py-12 sm:col-span-3 content-center">
+            <div class="lg:col-span-2 px-16 sm:py-12 sm:col-span-3 content-center h-fit">
                 <h1 class="text-hijau1 poppins-semibold" style="font-size: 46px;">Visi <span class=" text-black">dan</span>
                     Misi</h1>
                 <p class=" sm:mt-2" style="font-size: 20px;">
@@ -91,8 +91,7 @@
             </div>
         </div>
 
-        <div class="w-full min-h-screen h-fit"
-            style="background-image:url('images/bg.webp');background-position: center; background-size: cover; background-repeat:no-repeat;">
+        <div class="w-full min-h-screen h-fit" style="background-image:url('images/bg.webp');background-position: center; background-size: cover; background-repeat:no-repeat;">
             <div class="w-full min-h-screen h-fit lg:p-24 sm:p-8 bg-[#20222B] bg-opacity-95 poppins-semibold">
                 <div class="">
                     <h3 class="text-hijau1" style="font-size: 20px;">PONPES DARULYATAMA WAL MASAKIN</h3>
@@ -223,13 +222,12 @@
                     src="images/logo.webp">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque consectetur vero
                     delectus quasi, aliquam voluptate explicabo repellat laborum eius non assumenda, quam, necessitatibus
                     recusandae laboriosam excepturi dolor nulla ipsam consequuntur.</x-card>
-                <x-card class="col-span-1 h-fit my-5" title="haha" name="Yogi" rule="CO-Genzee"
-                    src="images/logo.webp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor perspiciatis
-                    architecto aliquam laudantium accusamus sed obcaecati amet cumque. Possimus, fugit quo maiores ipsam
-                    praesentium saepe iusto voluptates officiis quia repudiandae! Lorem ipsum dolor sit amet, consectetur
-                    adipisicing elit. Atque consectetur vero delectus quasi, aliquam voluptate explicabo repellat laborum
-                    eius non assumenda, quam, necessitatibus recusandae laboriosam excepturi dolor nulla ipsam
-                    consequuntur.</x-card>
+                <x-card class="col-span-1 h-fit my-5" title="haha" name="Yogi" rule="Alumni & Dosen"
+                    src="images/logo.webp">saya alumni dari Ponpes Darulyatama wal Masakin. Alhamdulillah, saya telah mengabdikan diri dalam dunia pendidikan di pondok ini selama enam tahun, mulai dari jenjang Madrasah Sanawiyah hingga melanjutkan ke Madrasah Aliyah. Selain menjadi santri, salah satu keunggulan yang saya rasakan di pondok ini adalah kebebasan memilih ustadz untuk pengajian kitab, sehingga kami bisa belajar dengan nyaman.
+
+                    Setelah lulus dari Madrasah Aliyah, alhamdulillah, berkat kerja sama antara UIN Mataram dan Pondok Pesantren, saya terpilih sebagai salah satu dari empat santri terbaik dan mendapatkan beasiswa dari UIN Mataram. Beasiswa ini memungkinkan saya untuk kuliah tanpa biaya hingga wisuda, semua berkat doa dan dukungan para ustadz dan teman-teman.
+                    
+                    Sekarang, alhamdulillah, saya menjabat sebagai salah satu pimpinan di Sekolah Tinggi Ilmu Tarbiyah dan menjadi dosen di UIN Mataram.</x-card>
                 <x-card class="col-span-1 h-fit my-5" title="haha" name="Yogi" rule="CO-Genzee"
                     src="images/logo.webp">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque consectetur vero
                     delectus quasi, aliquam voluptate explicabo repellat laborum eius non assumenda, quam, necessitatibus
