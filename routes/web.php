@@ -14,6 +14,10 @@ Route::get('/sejarah', function () {
     return view('pages.sejarah');
 })->name("sejarah");
 
+Route::get('/visi-misi', function () {
+    return view('pages.visi-misi');
+})->name("visi-misi");
+
 Route::get('/jenjang', function () {
     return view('pages.jenjang');
 })->name("jenjang");
