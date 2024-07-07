@@ -2,7 +2,7 @@
     <div class="lg:px-32 sm:px-14 py-20" id="informasi-contact">
         <div class="title-header flex col-span-1 poppins-semibold border-b-2 border-b-[#343434] pb-5">
             <div class="logo-header rounded-full bg-white">
-                <img src="images/logo.png" width="60" />
+                <img src="images/logo.webp" width="60" />
             </div>
             <div class="font-bold content-center px-3">
                 <p class="text-white">PONDOK PESANTREN</p>

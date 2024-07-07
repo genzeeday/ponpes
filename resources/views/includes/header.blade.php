@@ -2,7 +2,7 @@
     <div class="header py-8 lg:px-32 sm:px-4 grid grid-cols-2 border-b-2" style="font-size: 20px;">
         <div class="title-header flex col-span-1 poppins-semibold">
             <div class="logo-header">
-                <img src="images/logo.png" width="60" />
+                <img src="images/logo.webp" width="60" />
             </div>
             <div class="font-bold content-center px-3">
                 <p class="text-black">PONDOK PESANTREN</p>

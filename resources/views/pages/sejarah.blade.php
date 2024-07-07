@@ -53,10 +53,10 @@
             </div>
             <div class="flex-1 space-y-8 flex flex-col justify-center lg:justify-start items-center lg:items-end">
                 <div class="flex flex-row lg:flex-col gap-5 flex-wrap">
-                    <img src="images/sejarah/sejarah_1.png" alt="" srcset="" class="w-full sm:w-[250px] h-auto">
-                    <img src="images/sejarah/sejarah_2.png" alt="" srcset=""
+                    <img src="images/sejarah/sejarah_1.webp" alt="" srcset="" class="w-full sm:w-[250px] h-auto">
+                    <img src="images/sejarah/sejarah_2.webp" alt="" srcset=""
                         class="w-full sm:w-[250px] h-auto">
-                    <img src="images/sejarah/sejarah_3.png" alt="" srcset=""
+                    <img src="images/sejarah/sejarah_3.webp" alt="" srcset=""
                         class="w-full sm:w-[250px] h-auto">
                 </div>
             </div>

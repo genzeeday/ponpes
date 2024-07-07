@@ -8,22 +8,22 @@
                 <p class="poppins-bold text-[28px]">Jenjang Pendidikan</p>
             </div>
             {{-- list --}}
-            <x-banner-list src='images/card/1.png' class="sm:h-[290px] lg:h-[390px] lg:mb-10  sm:mb-5 lg:text-[42px] sm:text-[22px]">Raudatul Athfal
+            <x-banner-list src='images/card/1.webp' class="sm:h-[290px] lg:h-[390px] lg:mb-10  sm:mb-5 lg:text-[42px] sm:text-[22px]">Raudatul Athfal
                 <br/>Darull Aitam</x-banner-list>
-            <x-banner-list src='images/card/2.png' class="sm:h-[290px] lg:h-[390px] lg:mb-10  sm:mb-5 lg:text-[42px] sm:text-[22px]"> Madrasah Ibtidaiyah
+            <x-banner-list src='images/card/2.webp' class="sm:h-[290px] lg:h-[390px] lg:mb-10  sm:mb-5 lg:text-[42px] sm:text-[22px]"> Madrasah Ibtidaiyah
                 <br/>Darul Aitam</x-banner-list>
-            <x-banner-list src='images/card/3.png' class="sm:h-[290px] lg:h-[390px] lg:mb-10  sm:mb-5 lg:text-[42px] sm:text-[22px]">Madrasah Tsanawiyah
+            <x-banner-list src='images/card/3.webp' class="sm:h-[290px] lg:h-[390px] lg:mb-10  sm:mb-5 lg:text-[42px] sm:text-[22px]">Madrasah Tsanawiyah
                 <br/>Darul Aitam</x-banner-list>
-            <x-banner-list src='images/card/4.png' class="sm:h-[290px] lg:h-[390px] lg:mb-10  sm:mb-5 lg:text-[42px] sm:text-[22px]"> Madrasah Aliyah
+            <x-banner-list src='images/card/4.webp' class="sm:h-[290px] lg:h-[390px] lg:mb-10  sm:mb-5 lg:text-[42px] sm:text-[22px]"> Madrasah Aliyah
                 <br/>Darul Aitam</x-banner-list>
-            <x-banner-list src='images/card/5.png' class="sm:h-[290px] lg:h-[390px] lg:mb-10  sm:mb-5 lg:text-[42px] sm:text-[22px]">Program
+            <x-banner-list src='images/card/5.webp' class="sm:h-[290px] lg:h-[390px] lg:mb-10  sm:mb-5 lg:text-[42px] sm:text-[22px]">Program
                 <br/>Tahfiz</x-banner-list>
-            <x-banner-list src='images/card/6.png' class="sm:h-[290px] lg:h-[390px] lg:mb-10  sm:mb-5 lg:text-[42px] sm:text-[22px]">Madrasah Diniyah <br/> Islamiyah</x-banner-list>
-            <x-banner-list src='images/card/7.png' class="sm:h-[290px] lg:h-[390px] lg:mb-10  sm:mb-5 lg:text-[42px] sm:text-[22px]">Program Pengajaran
+            <x-banner-list src='images/card/6.webp' class="sm:h-[290px] lg:h-[390px] lg:mb-10  sm:mb-5 lg:text-[42px] sm:text-[22px]">Madrasah Diniyah <br/> Islamiyah</x-banner-list>
+            <x-banner-list src='images/card/7.webp' class="sm:h-[290px] lg:h-[390px] lg:mb-10  sm:mb-5 lg:text-[42px] sm:text-[22px]">Program Pengajaran
                 <br/>Dasar Al-Qur’an</x-banner-list>
-            <x-banner-list src='images/card/8.png' class="sm:h-[290px] lg:h-[390px] lg:mb-10  sm:mb-5 lg:text-[42px] sm:text-[22px]">Panti
+            <x-banner-list src='images/card/8.webp' class="sm:h-[290px] lg:h-[390px] lg:mb-10  sm:mb-5 lg:text-[42px] sm:text-[22px]">Panti
                 <br/>Asuhan</x-banner-list>
-            <x-banner-list src='images/card/9.png' class="sm:h-[290px] lg:h-[390px] lg:mb-10  sm:mb-5 lg:text-[42px] sm:text-[22px]">Sekolah Tinggi Ilmu Tarbiyah<br/> Sibawaihi Mutawali</x-banner-list>
+            <x-banner-list src='images/card/9.webp' class="sm:h-[290px] lg:h-[390px] lg:mb-10  sm:mb-5 lg:text-[42px] sm:text-[22px]">Sekolah Tinggi Ilmu Tarbiyah<br/> Sibawaihi Mutawali</x-banner-list>
         </div>
     </section>
 @endsection

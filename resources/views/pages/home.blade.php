@@ -46,13 +46,13 @@
         <div class="swiper mySwiper">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                    <img class="object-cover w-full" style="height: 846px" src="images/bg1.jpg" alt="image" />
+                    <img class="object-cover w-full" style="height: 846px" src="images/bg1.webp" alt="image" />
                 </div>
                 <div class="swiper-slide">
-                    <img class="object-cover w-full" style="height: 846px" src="images/bg1.jpg" alt="image" />
+                    <img class="object-cover w-full" style="height: 846px" src="images/bg1.webp" alt="image" />
                 </div>
                 <div class="swiper-slide">
-                    <img class="object-cover w-full" style="height: 846px" src="images/bg1.jpg" alt="image" />
+                    <img class="object-cover w-full" style="height: 846px" src="images/bg1.webp" alt="image" />
                 </div>
             </div>
             <div class="swiper-button-next lg:mx-14 rounded-full bg-black bg-opacity-50 p-8"
@@ -65,7 +65,7 @@
         {{-- visi misi --}}
         <div class="grid grid-cols-3 h-screen">
             <div class="col-span-1 md:hidden lg:block">
-                <img src="images/sabit.png" class=" h-screen" />
+                <img src="images/sabit.webp" class=" h-screen" />
             </div>
             <div class="lg:col-span-2 px-16 sm:py-12 sm:col-span-3 content-center">
                 <h1 class="text-hijau1 poppins-semibold" style="font-size: 46px;">Visi <span class=" text-black">dan</span>
@@ -92,7 +92,7 @@
         </div>
 
         <div class="w-full min-h-screen h-fit"
-            style="background-image:url('images/bg.jpg');background-position: center; background-size: cover; background-repeat:no-repeat;">
+            style="background-image:url('images/bg.webp');background-position: center; background-size: cover; background-repeat:no-repeat;">
             <div class="w-full min-h-screen h-fit lg:p-24 sm:p-8 bg-[#20222B] bg-opacity-95 poppins-semibold">
                 <div class="">
                     <h3 class="text-hijau1" style="font-size: 20px;">PONPES DARULYATAMA WAL MASAKIN</h3>
@@ -190,7 +190,7 @@
                     {{-- list --}}
                     <div class=" text-justify">
                         <div class="flex justify-center py-5">
-                            <img src="images/ngaji.png" class="lg:hidden sm:block ">
+                            <img src="images/ngaji.webp" class="lg:hidden sm:block ">
                         </div>
                         <p class="" style="font-size: 20px;">
                         <ul class="custom-icon-list mt-5 poppins-regular">
@@ -206,7 +206,7 @@
                     </div>
                 </div>
                 <div class="lg:col-span-1 flex justify-center ps-5">
-                    <img src="images/ngaji.png" class="sm:hidden lg:block">
+                    <img src="images/ngaji.webp" class="sm:hidden lg:block">
                 </div>
             </div>
         </div>
@@ -220,18 +220,18 @@
             </div>
             <div class="w-full grid lg:grid-cols-3 lg:gap-3 text-black p-10 px-24">
                 <x-card class="col-span-1 h-fit my-5" title="haha" name="Yogi" rule="CO-Genzee"
-                    src="images/logo.png">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque consectetur vero
+                    src="images/logo.webp">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque consectetur vero
                     delectus quasi, aliquam voluptate explicabo repellat laborum eius non assumenda, quam, necessitatibus
                     recusandae laboriosam excepturi dolor nulla ipsam consequuntur.</x-card>
                 <x-card class="col-span-1 h-fit my-5" title="haha" name="Yogi" rule="CO-Genzee"
-                    src="images/logo.png">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor perspiciatis
+                    src="images/logo.webp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor perspiciatis
                     architecto aliquam laudantium accusamus sed obcaecati amet cumque. Possimus, fugit quo maiores ipsam
                     praesentium saepe iusto voluptates officiis quia repudiandae! Lorem ipsum dolor sit amet, consectetur
                     adipisicing elit. Atque consectetur vero delectus quasi, aliquam voluptate explicabo repellat laborum
                     eius non assumenda, quam, necessitatibus recusandae laboriosam excepturi dolor nulla ipsam
                     consequuntur.</x-card>
                 <x-card class="col-span-1 h-fit my-5" title="haha" name="Yogi" rule="CO-Genzee"
-                    src="images/logo.png">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque consectetur vero
+                    src="images/logo.webp">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque consectetur vero
                     delectus quasi, aliquam voluptate explicabo repellat laborum eius non assumenda, quam, necessitatibus
                     recusandae laboriosam excepturi dolor nulla ipsam consequuntur.</x-card>
                 {{-- <x-card class="col-span-1"></x-card> --}}

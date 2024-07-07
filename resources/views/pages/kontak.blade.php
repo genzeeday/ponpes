@@ -8,7 +8,7 @@
             <div class="grid lg:grid-cols-3 sm:grid-cols-3 gap-7">
                     <div class="rounded-xl py-10 px-7 bg-white shadow-lg w-fit col-span-1 w-full">
                         <div class="">
-                            <img src="images/wa.png"/>
+                            <img src="images/wa.webp"/>
                         </div>
                         <div class="poppins-semibold text-[18px] mt-3" >08XXXXXXXXXX</div>
                         <div class="poppins-medium text-[18px] mt-3 text-[#656565]">Whatsapp</div>
@@ -16,7 +16,7 @@
                 
                     <div class="rounded-xl py-10 px-7 bg-white shadow-lg w-fit col-span-1 w-full">
                         <div class="">
-                            <img src="images/mail.png"/>
+                            <img src="images/mail.webp"/>
                         </div>
                         <div class="poppins-semibold text-[18px] mt-3" >contohemail@gmail.com</div>
                         <div class="poppins-medium text-[18px] mt-3 text-[#656565]">Email</div>
@@ -26,7 +26,7 @@
                     <div class="rounded-xl py-10 px-7 bg-white shadow-lg w-fit col-span-1 w-full">
                         <div class="flex">
                             <div>
-                                <img src="images/gps.png" class="w-16"/>
+                                <img src="images/gps.webp" class="w-16"/>
                             </div>
                             <div class="ms-2 poppins-semibold text-[18px]" >
                                 Jl. TGH. Muh. Mutawalli, Dusun Jerowaru Timur, Desa Jerowaru, Kecamatan Jerowaru, Kabupaten Lombok Timur, Provinsi Nusa Tenggara Barat.
