@@ -2,7 +2,7 @@
 
 @section('content')
     <section id="content">
-        <x-banner>Galeri</x-banner>
+        <x-banner>Kontak</x-banner>
         <div id="badan-usaha" class="lg:px-28 sm:px-10  h-fit min-h-screen py-16">
             {{-- list --}}
             <div class="grid lg:grid-cols-3 sm:grid-cols-3 gap-7">

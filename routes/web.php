@@ -14,6 +14,10 @@ Route::get('/usaha', function () {
     return view('pages.usaha');
 })->name("usaha");
 
+Route::get('/sejarah', function () {
+    return view('pages.sejarah');
+})->name("sejarah");
+
 Route::get('/jenjang', function () {
     return view('pages.jenjang');
 })->name("jenjang");
@@ -24,5 +28,5 @@ Route::get('/galeri', function () {
 
 Route::get('/kontak', function () {
     return view('pages.kontak');
-})->name("galeri");
+})->name("kontak");
 // Route::get('/')
