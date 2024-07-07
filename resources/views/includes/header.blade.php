@@ -46,18 +46,42 @@
 
     {{-- navbar --}}
     <nav class=" flex justify-center lg:px-32 sm:px-4">
-        <ul class=" w-full poppins-regular grid grid-cols-6 lg:px-7" style="font-size: 20px;">
+        <ul class=" w-full poppins-regular lg:px-7 flex" style="font-size: 20px;">
             <li class="px-7 py-6">
                 <a href="{{ route('home') }}">
                     <span
                         class=" {{ Request::is('/') ? 'font-bold border-b-2 pb-1 border-green-600' : 'text-gray-400' }}">Beranda</span>
                 </a>
             </li>
+
+            <!-- Dropdown menu -->
             <li class="px-7 py-6">
-                <a href="{{ route('sejarah') }}">
-                    <span class=" text-gray-400">Profil Yayasan</span>
-                </a>
+                <button id="dropdownDefaultButton" data-dropdown-toggle="dropdown" class="flex items-center gap-1">
+                    <span class="text-gray-400 whitespace-nowrap">Profil Yayasan</span>
+                    <img src="{{ asset('/icons/chevron.svg') }}" alt="">
+                </button>
             </li>
+            <div id="dropdown"
+                class="z-10 hidden bg-white divide-y divide-gray-400 rounded-lg border shadow-lg w-full md:w-52">
+                <ul class="py-2 text-sm text-gray-700 dark:text-gray-200 poppins-regular"
+                    aria-labelledby="dropdownDefaultButton">
+                    <li>
+                        <a href="{{ route('visi-misi') }}"
+                            class="block px-4 py-2 hover:bg-gray-200 text-zinc-600 text-base">Visi
+                            Misi</a>
+                    </li>
+                    <li>
+                        <a href="{{ route('sejarah') }}"
+                            class="block px-4 py-2 hover:bg-gray-200 text-zinc-600 text-base">Sejarah</a>
+                    </li>
+                    <li>
+                        <a href="{{ route('struktur-organisasi') }}"
+                            class="block px-4 py-2 hover:bg-gray-200 text-zinc-600 text-base">Struktur
+                            Organisasi</a>
+                    </li>
+                </ul>
+            </div>
+
             <li class="px-7 py-6">
                 <a href="{{ route('usaha') }}">
                     <span
