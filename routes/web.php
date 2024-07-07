@@ -18,6 +18,10 @@ Route::get('/visi-misi', function () {
     return view('pages.visi-misi');
 })->name("visi-misi");
 
+Route::get('/struktur', function () {
+    return view('pages.struktur');
+})->name("struktur");
+
 Route::get('/jenjang', function () {
     return view('pages.jenjang');
 })->name("jenjang");
