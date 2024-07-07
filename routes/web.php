@@ -2,10 +2,6 @@
 
 use Illuminate\Support\Facades\Route;
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
-
 Route::get('/', function () {
     return view('pages.home');
 })->name("home");
@@ -29,4 +25,3 @@ Route::get('/galeri', function () {
 Route::get('/kontak', function () {
     return view('pages.kontak');
 })->name("kontak");
-// Route::get('/')
