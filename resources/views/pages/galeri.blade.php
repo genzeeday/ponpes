@@ -10,28 +10,28 @@
             {{-- list --}}
             <div class="grid lg:grid-cols-3 sm:grid-cols-2 gap-7">
                 <div class="col-span-1 ">
-                    <img src="images/galeri/1.jpg" class=" rounded-lg"/>
+                    <img src="images/galeri/1.jpg" class="lazyload parent-fit rounded-lg"/>
                 </div>
                 <div class="col-span-1 ">
-                    <img src="images/galeri/2.jpg" class=" rounded-lg"/>
+                    <img src="images/galeri/2.jpg" class="lazyload parent-fit rounded-lg"/>
                 </div>
                 <div class="col-span-1 ">
-                    <img src="images/galeri/3.jpg" class=" rounded-lg"/>
+                    <img src="images/galeri/3.jpg" class="lazyload parent-fit rounded-lg"/>
                 </div>
                 <div class="col-span-1 ">
-                    <img src="images/galeri/4.jpg" class=" rounded-lg"/>
+                    <img src="images/galeri/4.jpg" class="lazyload parent-fit rounded-lg"/>
                 </div>
                 <div class="col-span-1 ">
-                    <img src="images/galeri/5.jpg" class=" rounded-lg"/>
+                    <img src="images/galeri/5.jpg" class="lazyload parent-fit rounded-lg"/>
                 </div>
                 <div class="col-span-1 ">
-                    <img src="images/galeri/6.jpg" class=" rounded-lg"/>
+                    <img src="images/galeri/6.jpg" class="lazyload parent-fit rounded-lg"/>
                 </div>
                 <div class="col-span-1 ">
-                    <img src="images/galeri/7.jpg" class=" rounded-lg"/>
+                    <img src="images/galeri/7.jpg" class="lazyload parent-fit rounded-lg"/>
                 </div>
                 <div class="col-span-1 ">
-                    <img src="images/galeri/8.jpg" class=" rounded-lg"/>
+                    <img src="images/galeri/8.jpg" class="lazyload parent-fit rounded-lg"/>
                 </div>
             </div>
         </div>
