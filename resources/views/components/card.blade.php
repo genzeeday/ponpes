@@ -1,4 +1,4 @@
-<div {{ $attributes->class(['rounded-xl py-10 px-7 bg-white shadow-lg w-fit']) }}>
+<div {{ $attributes->class(['rounded-xl py-10 px-7 bg-white shadow-lg']) }}>
     <div class="poppins-semibold text-hijau1 text-[20px]" >{{ $title }}</div>
     <div class="poppins-medium text-[18px] mt-5">{{$slot}}</div>
     <div class="flex mt-10">

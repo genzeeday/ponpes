@@ -2,42 +2,42 @@
 
 @section('content')
     <section id="content">
-        <x-banner>Kontak</x-banner>
+        <x-banner-static-image>Kontak</x-banner-static-image>
         <div id="badan-usaha" class="lg:px-28 sm:px-10  h-fit min-h-screen py-16">
             {{-- list --}}
-            <div class="grid lg:grid-cols-3 sm:grid-cols-3 gap-7">
-                    <div class="rounded-xl py-10 px-7 bg-white shadow-lg w-fit col-span-1 w-full">
-                        <div class="">
-                            <img src="images/wa.webp"/>
-                        </div>
-                        <div class="poppins-semibold text-[18px] mt-3" >08XXXXXXXXXX</div>
-                        <div class="poppins-medium text-[18px] mt-3 text-[#656565]">Whatsapp</div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-7 px-5">
+                <a href="https://wa.me/62817382651" target="_blank" class="rounded-xl py-10 px-7 bg-white shadow-lg col-span-1">
+                    <div class="">
+                        <img src="images/wa.webp"/>
                     </div>
-                
-                    <div class="rounded-xl py-10 px-7 bg-white shadow-lg w-fit col-span-1 w-full">
-                        <div class="">
-                            <img src="images/mail.webp"/>
-                        </div>
-                        <div class="poppins-semibold text-[18px] mt-3" >contohemail@gmail.com</div>
-                        <div class="poppins-medium text-[18px] mt-3 text-[#656565]">Email</div>
-                    </div>
-                
+                    <div class="poppins-semibold text-[18px] mt-3">0817382651</div>
+                    <div class="poppins-medium text-[18px] mt-3 text-[#656565]">Whatsapp</div>
+                </a>
             
-                    <div class="rounded-xl py-10 px-7 bg-white shadow-lg w-fit col-span-1 w-full">
-                        <div class="flex">
-                            <div>
-                                <img src="images/gps.webp" class="w-16"/>
-                            </div>
-                            <div class="ms-2 poppins-semibold text-[18px]" >
-                                Jl. TGH. Muh. Mutawalli, Dusun Jerowaru Timur, Desa Jerowaru, Kecamatan Jerowaru, Kabupaten Lombok Timur, Provinsi Nusa Tenggara Barat.
-                                <div class="poppins-medium text-[18px] mt-3 text-[#656565]">Email</div>
-                            </div>
-                        </div>
+                <div class="rounded-xl py-10 px-7 bg-white shadow-lg col-span-1">
+                    <div class="">
+                        <img src="images/mail.webp"/>
                     </div>
-
+                    <div class="poppins-semibold text-[18px] mt-3">yayasandarulyatamawalmasakin<br>@gmail.com</div>
+                    <div class="poppins-medium text-[18px] mt-3 text-[#656565]">Email</div>
+                </div>
             </div>
 
-            <div class="py-10" id="information">
+            <div class="px-5">
+                <div class="mt-6 rounded-xl py-10 bg-white shadow-lg col-span-1 px-5">
+                    <div class="flex">
+                        <div>
+                            <img src="images/gps.webp" class="w-12"/>
+                        </div>
+                        <div class="ms-2 poppins-semibold text-[18px]" >
+                            Jl. TGH. Muh. Mutawalli, Dusun Jerowaru Timur, Desa Jerowaru, Kecamatan Jerowaru, Kabupaten Lombok Timur, Provinsi Nusa Tenggara Barat.
+                            <div class="poppins-medium text-[18px] mt-3 text-[#656565]">Alamat</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="py-10 px-5" id="information">
                 <p class="poppins-bold text-[28px]">Lokasi Yayasan</p>
             </div>
             <div class="pb-10" id="maps">

@@ -7,14 +7,15 @@
             <div class="py-10" id="information">
                 <p class="poppins-bold text-[28px]">Jenjang Pendidikan</p>
             </div>
+
             {{-- list --}}
             <x-banner-list src='images/card/1.webp' class="sm:h-[290px] lg:h-[390px] lg:mb-10  sm:mb-5 lg:text-[42px] sm:text-[22px]">Raudatul Athfal
                 <br/>Darull Aitam</x-banner-list>
-            <x-banner-list src='images/card/2.webp' class="sm:h-[290px] lg:h-[390px] lg:mb-10  sm:mb-5 lg:text-[42px] sm:text-[22px]"> Madrasah Ibtidaiyah
+            <x-banner-list src='images/card/2.webp' class="sm:h-[290px] lg:h-[390px] lg:mb-10  sm:mb-5 lg:text-[42px] sm:text-[22px]">Madrasah Ibtidaiyah
                 <br/>Darul Aitam</x-banner-list>
             <x-banner-list src='images/card/3.webp' class="sm:h-[290px] lg:h-[390px] lg:mb-10  sm:mb-5 lg:text-[42px] sm:text-[22px]">Madrasah Tsanawiyah
                 <br/>Darul Aitam</x-banner-list>
-            <x-banner-list src='images/card/4.webp' class="sm:h-[290px] lg:h-[390px] lg:mb-10  sm:mb-5 lg:text-[42px] sm:text-[22px]"> Madrasah Aliyah
+            <x-banner-list src='images/card/4.webp' class="sm:h-[290px] lg:h-[390px] lg:mb-10  sm:mb-5 lg:text-[42px] sm:text-[22px]">Madrasah Aliyah
                 <br/>Darul Aitam</x-banner-list>
             <x-banner-list src='images/card/5.webp' class="sm:h-[290px] lg:h-[390px] lg:mb-10  sm:mb-5 lg:text-[42px] sm:text-[22px]">Program
                 <br/>Tahfiz</x-banner-list>

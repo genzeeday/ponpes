@@ -3,7 +3,7 @@
 @section('content')
     <section id="content">
         <x-banner>Galeri</x-banner>
-        <div id="badan-usaha" class="lg:px-28 sm:px-10  h-fit min-h-screen py-16">
+        <div id="badan-usaha" class="lg:px-28 px-5 h-fit min-h-screen py-16">
             <div class="py-10" id="information">
                 <p class="poppins-bold text-[28px]">Galeri</p>
             </div>

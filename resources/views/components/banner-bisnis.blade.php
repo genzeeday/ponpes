@@ -46,31 +46,31 @@
 <div class="swiper mySwiper relative">
     <div class="swiper-wrapper">
         <div class="swiper-slide">
-            <img class="object-cover w-full" style="height: 400px" src="{{ asset('/images/card/1.webp') }}" alt="image" />
+            <img class="object-cover w-full" style="height: 400px" src="{{ asset('/images/bisnis/garam.png') }}" alt="image" />
         </div>
         <div class="swiper-slide">
-            <img class="object-cover w-full" style="height: 400px" src="{{ asset('/images/card/2.webp') }}" alt="image" />
+            <img class="object-cover w-full" style="height: 400px" src="{{ asset('/images/bisnis/grosir.png') }}" alt="image" />
         </div>
         <div class="swiper-slide">
-            <img class="object-cover w-full" style="height: 400px" src="{{ asset('/images/card/3.webp') }}" alt="image" />
+            <img class="object-cover w-full" style="height: 400px" src="{{ asset('/images/bisnis/ikan.png') }}" alt="image" />
         </div>
         <div class="swiper-slide">
-            <img class="object-cover w-full" style="height: 400px" src="{{ asset('/images/card/4.webp') }}" alt="image" />
+            <img class="object-cover w-full" style="height: 400px" src="{{ asset('/images/bisnis/kebun.png') }}" alt="image" />
         </div>
         <div class="swiper-slide">
-            <img class="object-cover w-full" style="height: 400px" src="{{ asset('/images/card/5.webp') }}" alt="image" />
+            <img class="object-cover w-full" style="height: 400px" src="{{ asset('/images/bisnis/migas.png') }}" alt="image" />
         </div>
         <div class="swiper-slide">
-            <img class="object-cover w-full" style="height: 400px" src="{{ asset('/images/card/6.webp') }}" alt="image" />
+            <img class="object-cover w-full" style="height: 400px" src="{{ asset('/images/bisnis/sapi.png') }}" alt="image" />
         </div>
         <div class="swiper-slide">
-            <img class="object-cover w-full" style="height: 400px" src="{{ asset('/images/card/7.webp') }}" alt="image" />
+            <img class="object-cover w-full" style="height: 400px" src="{{ asset('/images/bisnis/tambak.png') }}" alt="image" />
         </div>
     </div>
     <div class="swiper-pagination"></div>
 
     <div class="absolute top-0 z-50 w-full flex flex-col-reverse md:flex-row justify-center md:justify-between items-center px-20" style="height: 400px">
-        <div class="title content-center text-white poppins-bold text-2xl md:text-5xl text-center">
+        <div class="title content-center text-white poppins-bold text-5xl">
             <p class="" style="text-shadow: 2px 2px #8b8b8b;">{{$slot}}</p>
         </div>
         <div class="logo flex justify-end">
